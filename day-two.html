@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Code test</title>
+</head>
+<body>
+    <header class="header-banner">
+        <img src="assets/banner_7doc.jpg" alt="Imagen logo desafío 7 days of code">
+    </header>
+    <section class="input-section">
+        <h2 class="section-title">¡Bienvenido!</h2>
+        <p class="intruction-input"> *A continuación se le realizarán algunas preguntas:</p>
+        <div class="input-wrapper">
+            <p>¿Cuál es su nombre?</p>
+            <input type="text" id="usuarioNombre" class="input-name" placeholder="Escriba su nombre">
+            
+            <p>¿Cuál es su edad?</p>
+            <input type="number" id="usuarioEdad" class="input-age" placeholder="Escribe su edad"> 
+            
+            <p>¿Qué lenguaje de programación está estudiando?</p>
+            <input type="text" id="usuarioPrograma" class="input-program" placeholder="Escriba un lenguaje de programación"> 
+            
+            <button class="button-add" onclick="enviarInfo()">Enviar</button>
+                <h4 class="button-add-mensaje"></h4>
+                <img src="assets/flowers.jpg" id="ImagenUsuario" class="imagen-mostrar" alt="Imagen de ramo de flores con tarjeta que dice for you"  aria-disabled="true">
+
+    <script src="day-two.js" defer></script>
+</body>
+</html>

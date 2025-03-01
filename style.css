@@ -1,0 +1,98 @@
+:root {
+    --color-primary: #000000;
+    --color-secundary: #28d2df;
+    --color-terciary: #ffffff;
+    --color-quaternary:#fafc91; 
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--color-primary);
+}
+
+.header-banner {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+  
+.header-banner img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.section-title {
+    color: var(--color-secundary);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12.5rem;
+    font-family: Tahoma, sans-serif;
+    font-size: 7rem
+}
+
+.intruction-input {
+    color: var(--color-terciary);
+    margin: 0 15rem;
+    font-size: 2rem;
+}
+
+.input-wrapper {
+    padding: 3rem;
+    margin: 0 12rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem; 
+    color: var(--color-terciary);
+    font-size: 1.5rem;
+}
+
+.input-name {
+    font-size: 1.3rem;
+}
+
+.input-age {
+    font-size: 1.3rem;
+}
+
+.input-program {
+    font-size: 1.3rem;
+}
+
+.button-add {
+    background-color: var(--color-secundary);
+    color: var(--color-terciary);
+    border-radius: 1.5rem;
+    padding: 1rem 2rem;
+    font-family: "Inter", sans-serif;
+    font-size: 1.6rem;
+    cursor: pointer;
+    width: 15%;
+    margin: 0 36rem;
+}
+
+.button-add-mensaje { 
+    color: var(--color-quaternary);
+}
+
+.button-add:hover {
+    background-color: var(--color-quaternary);
+}
+
+img[aria-disabled="true"] {
+    opacity: 0;
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
+.imagen-mostrar{
+    width: 30%;
+    margin: 0 30rem;
+}
